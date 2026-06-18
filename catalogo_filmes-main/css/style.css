@@ -1,0 +1,64 @@
+body {
+    background-color: #f4f4F4;
+}
+
+.card-filme {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-filme:hover {
+    transform: scale(1.03);
+}
+
+.card-filme img {
+    height: 550px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+button a {
+    text-decoration: none;
+    color: #ffffffff;
+}
+
+.botao {
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+}
+
+.card-serie {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-serie:hover {
+    transform: scale(1.03);
+}
+
+.card-serie img {
+    height: 620px;
+    object-fit: cover;
+}
+
+.card-jogo {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-jogo:hover {
+    transform: scale(1.03);
+}
+
+.card-jogo img {
+    height: 400px;
+    object-fit: cover;
+}
